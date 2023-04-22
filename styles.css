@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 
 :root {
-    --primary-color : #ea580c;
-    --dark-grey : #6b7280;
+    --primary-color: #ea580c;
+    --dark-grey: #6b7280;
+    --off-white: #f3f4f6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -21,7 +23,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600contapx;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -76,12 +78,12 @@ hr {
 
 .navigation .link {
     color: white;
-    
+
 }
 
 .navigation .link-active {
-     font-weight: bold;
-     font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /** header **/
@@ -99,9 +101,43 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color : var(--dark-grey)
+    color: var(--dark-grey);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+/* secttion */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.off-white {
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
